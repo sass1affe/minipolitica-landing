@@ -7,48 +7,71 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-white text-gray-900">
-    <!-- Hero Section -->
-    <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-br from-blue-50 to-blue-100">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4 text-blue-900">MiniPolítica</h1>
-      <p class="text-lg md:text-xl mb-6 max-w-xl text-blue-800">
-        Crie políticas internas para sua startup sem complicação – simples, rápido e direto.
+
+    <!-- Header -->
+    <header class="w-full py-6 px-8 flex justify-between items-center shadow-sm bg-white sticky top-0 z-50">
+      <h1 class="text-2xl font-bold text-blue-700">MiniPolítica</h1>
+      <nav class="space-x-4 hidden md:block">
+        <a href="#sobre" class="text-gray-700 hover:text-blue-600">Sobre</a>
+        <a href="#beneficios" class="text-gray-700 hover:text-blue-600">Benefícios</a>
+        <a href="#comecar" class="text-gray-700 hover:text-blue-600">Começar</a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="text-center py-24 px-6 bg-gradient-to-br from-blue-50 to-blue-100">
+      <h2 class="text-4xl md:text-6xl font-bold text-blue-800 mb-4">Políticas internas, sem complicação</h2>
+      <p class="text-lg md:text-xl text-blue-700 max-w-2xl mx-auto mb-8">
+        Com o MiniPolítica, sua startup gera documentos internos claros, inclusivos e personalizados — em minutos.
       </p>
-      <a href="#"
-        class="bg-blue-600 text-white px-6 py-3 rounded-xl text-lg hover:bg-blue-700 transition">
-        Começar agora
+      <a href="#comecar" class="bg-blue-600 text-white px-8 py-3 rounded-xl text-lg hover:bg-blue-700 transition">
+        Criar política agora
       </a>
     </section>
 
+    <!-- Sobre -->
+    <section id="sobre" class="py-20 px-6 max-w-5xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">O que é o MiniPolítica?</h3>
+      <p class="text-gray-700 text-lg max-w-3xl mx-auto">
+        É uma plataforma para gerar rapidamente políticas corporativas essenciais como home office, reembolso, conduta, diversidade e mais.
+        Ideal para startups em crescimento que precisam de estrutura, sem burocracia.
+      </p>
+    </section>
+
     <!-- Benefícios -->
-    <section class="py-20 px-6 text-center bg-white">
-      <h2 class="text-3xl md:text-4xl font-semibold mb-8">Por que usar o MiniPolítica?</h2>
-      <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        <div>
-          <h3 class="text-xl font-semibold mb-2">Rápido</h3>
-          <p>Crie políticas em minutos, não dias.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-semibold mb-2">Fácil</h3>
-          <p>Sem juridiquês, só o essencial.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-semibold mb-2">Moderno</h3>
-          <p>Design direto e acessível para qualquer time.</p>
+    <section id="beneficios" class="bg-gray-50 py-20 px-6">
+      <div class="max-w-6xl mx-auto text-center">
+        <h3 class="text-3xl font-semibold mb-12">Benefícios do MiniPolítica</h3>
+        <div class="grid md:grid-cols-3 gap-10 text-left">
+          <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition">
+            <h4 class="text-xl font-bold text-blue-600 mb-2">Rápido e intuitivo</h4>
+            <p>Gere políticas em poucos cliques, com textos prontos para adaptar.</p>
+          </div>
+          <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition">
+            <h4 class="text-xl font-bold text-blue-600 mb-2">Economia de tempo</h4>
+            <p>Evite horas escrevendo documentos do zero ou buscando modelos genéricos.</p>
+          </div>
+          <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition">
+            <h4 class="text-xl font-bold text-blue-600 mb-2">Inclusivo por padrão</h4>
+            <p>Tom de voz claro, empático e profissional, alinhado com os novos tempos.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- CTA Final -->
-    <section class="py-16 px-6 text-center bg-blue-50">
-      <h2 class="text-2xl md:text-3xl font-semibold mb-6">Pronto para criar sua primeira política?</h2>
-      <a href="#" class="bg-blue-600 text-white px-8 py-3 rounded-xl text-lg hover:bg-blue-700 transition">
+    <!-- CTA -->
+    <section id="comecar" class="py-24 px-6 text-center bg-blue-600 text-white">
+      <h3 class="text-3xl md:text-4xl font-semibold mb-6">Pronto para estruturar sua startup?</h3>
+      <p class="text-lg mb-8">Comece grátis e crie suas primeiras políticas em menos de 5 minutos.</p>
+      <a href="#" class="bg-white text-blue-700 px-8 py-3 rounded-xl text-lg font-semibold hover:bg-blue-100 transition">
         Começar agora
       </a>
     </section>
 
-    <!-- Rodapé -->
-    <footer class="text-center text-sm text-gray-500 py-6">
-      © 2025 MiniPolítica. Todos os direitos reservados.
+    <!-- Footer -->
+    <footer class="py-8 text-center text-sm text-gray-500 bg-white">
+      © 2025 MiniPolítica. Feito com 💙 por quem acredita em startups humanas.
     </footer>
+
   </body>
 </html>
